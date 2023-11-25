@@ -6,6 +6,7 @@
     --slate: #434455;
     --cornflower: #e7e9fc;
     --cloud: #F4F4FD;
+    --lightslate: #8e8f99;
 }
 
 body {
@@ -136,7 +137,6 @@ body {
 
 
 /*HERO SECTION STYLING*/
-
 .hero {
     padding-top: 188px;
     padding-bottom: 188px;
@@ -160,7 +160,6 @@ body {
     border-radius: 4px;
     color: var(--white);
     padding: 16px 32px;
-
 }
 
 .hero-btn:hover {
@@ -170,15 +169,82 @@ body {
 /*END OF HERO SECTION STYLING*/
 
 
+/*ABOUT STYLING*/
+.about-icon {
+    padding: 24px 0;
+    text-align: center;
+    background-color: var(--cloud);
+}
+/*ABOUT STYLING*/
+
+
 /*TEAM SECTION STYLING*/
+.team {
+    background-color: var(--cloud);
+}
+
 .team-name {
     color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.5; /* 120% */
     letter-spacing: 0.4px;
+    margin-top: 0;
+}
+
+.team ul li {
+    text-align: center;
+}
+
+.team img {
+    display: block;
+}
+
+.team-caption {
+    padding: 32px 0px;
+    background-color: var(--white);
+}
+
+.team-socials {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-socials-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--iris);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.team-socials-icon svg {
+    fill: white;
 }
 /*END OF TEAM SECTION STYLING*/
+
+
+/*CUSTOMERS STYLING*/
+.customer-icon {
+    border: 1px solid var(--lightslate);
+}
+
+.customer-icon svg {
+    fill: var(--lightslate);
+}
+
+.customer-icon:hover,
+.customer-icon:focus {
+    border-color: var(--iris);
+}
+
+.customer-icon:hover svg,
+.customer-icon:focus svg {
+    fill: var(--iris);
+}
+/*END OF CUSTOMERS STYLING*/
 
 
 /*FOOTER STYLING*/
@@ -192,4 +258,40 @@ body {
     /* line-height: 1.5 */
     letter-spacing: 0.32px;
 }
+
+.footer-socials-icon {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 16px;
+    padding-top: 16px;
+}
+
+.social-text {
+    color: white
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: .32px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.socials-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--iris);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.socials-icon {
+    fill: white;
+}
+
 /*END OF FOOTER STYLING*/
