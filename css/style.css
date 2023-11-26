@@ -171,7 +171,8 @@ body {
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
-    background-image: linear-gradient(rgba (46, 47, 66, 0.7), rgba (46, 47, 66, 0.7) );
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office-1.jpeg");
+    background-size: cover;
 }
 
 .hero-text {
